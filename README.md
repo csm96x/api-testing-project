@@ -18,3 +18,6 @@ pip install -r requirements.txt
 
 2. Run the tests:
 pytest test_api.py
+
+## Notes
+This project uses a public test API (JSONPlaceholder) for demonstration purposes.
