@@ -19,5 +19,13 @@ pip install -r requirements.txt
 2. Run the tests:
 pytest test_api.py
 
+## Run with Docker
+
+1. Build the image:
+docker build -t api-tests .
+
+2. Run the container:
+docker run api-tests
+
 ## Notes
 This project uses a public test API (JSONPlaceholder) for demonstration purposes.
